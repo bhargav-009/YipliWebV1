@@ -23,11 +23,12 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
   font-size: inherit;
   font-style: normal;
 }
+
 
 .flaticon-text:before { content: "\f100"; }
 .flaticon-value:before { content: "\f101"; }

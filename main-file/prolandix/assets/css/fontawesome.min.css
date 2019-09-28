@@ -4655,6 +4655,10 @@
     content: "\f431"
 }
 
+.fa-line-chart:before {
+    content: "\f201"
+}
+
 .sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);

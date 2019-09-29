@@ -66,6 +66,11 @@
   opacity: 0.7;
   z-index: 1;
 }
+
+.videoBackground{
+height: auto;
+width: auto;
+}
 /* Video back ground Styling */
 
 

@@ -480,8 +480,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <div class="intro-video-wrap">
-                    <a data-video-link-type=youtube href="https://www.youtube.com/watch?v=-FgR_T6mpAE?autoplay=1&rel=0&showinfo=0&loop=1" class="video-play-btn mfp-iframe"><i class="fas fa-play"></i></a>
+                <div class="intro-video-wrap" >
+                    <a data-video-link-type=youtube href="https://www.youtube.com/watch?v=-FgR_T6mpAE?autoplay=1&rel=0&showinfo=0&loop" class="video-play-btn mfp-iframe"><i class="fas fa-play"></i></a>
                     <!-- <a data-video-link-type=youtube href="www.youtube.com/embed/PVxc5mIHVuQ?rel=0&autoplay=1" class="video-play-btn mfp-iframe"><i class="fas fa-play"></i></a> -->
                     <h2 class="title">About Our Features</h2>
                 </div>
@@ -489,6 +489,19 @@
         </div>
     </div>
 </div>
+
+<!-- <script type='text/javascript'>
+    document.getElementById('video1').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+        // What you want to do after the event
+        $("#video1").on("ended", function() {
+          //TO DO: Your code goes here...
+          // alert("Video Finished");
+          $('#video1').modal('hide');
+        });
+
+    }
+</script> -->
 <!-- intro video area end -->
 
 <!-- our product area start -->

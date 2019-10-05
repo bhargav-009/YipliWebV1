@@ -73,7 +73,24 @@ width: auto;
 }
 /* Video back ground Styling */
 
-
+#myDiv {
+    -webkit-animation-name: periodicfading;
+    -webkit-animation-duration: 100s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+}
+@-webkit-keyframes periodicfading {
+    0% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
 
 
 

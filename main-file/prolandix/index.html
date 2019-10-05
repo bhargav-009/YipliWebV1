@@ -282,12 +282,12 @@
                 <div class="right-content-area">
                     <h3 class="title">More then watch that fill your needs in time</h3>
                     <div class="list-feature-wrap"><!-- list feature wrap -->
-                        <ul>
+                        <ul id="ul1">
 
 
 
-                            <li>
-                                <div id="myDiv">
+                            <li id="li1">
+                                <div id="myDiv1">
                                     <div class="single-list-feature-item">
                                         <div class="icon">
                                             <i class="flaticon-alarm-clock"></i>
@@ -300,9 +300,9 @@
                                 </div>
 
                             </li>
-                          
 
-                            <li>
+
+                            <li id="li2">
                                 <div class="single-list-feature-item">
                                     <div class="icon">
                                         <i class="flaticon-chat-1"></i>
@@ -313,7 +313,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+
+                            <li id="li3">
                                 <div class="single-list-feature-item">
                                     <div class="icon">
                                         <i class="flaticon-heart"></i>
@@ -324,7 +325,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+
+                            <li id="li4">
                                 <div class="single-list-feature-item">
                                     <div class="icon">
                                         <i class="flaticon-route"></i>
@@ -335,22 +337,43 @@
                                     </div>
                                 </div>
                             </li>
+
                         </ul>
-                    </div><!-- //. list feature wrap -->
+
+
+
+
+                    </div><!--  list feature wrap -->
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+
+
+ <script>
+setInterval(function() {
+   $("#li1").style.opacity=0.0;
+   setTimeout(function() {
+      $("#li1").style.opacity=1.0;
+   },1000);
+},2000);
+
+// $("#li1").animate({opacity:0.0},2000);
+</script>
+
+
+<!--
 <script type="text/javascript">
 setInterval(function() {
-   $("#myDiv").hide();
+   $("#li1").animate({opacity:0.3};
    setTimeout(function() {
-      $("#myDiv").show();
+      $("#li1").animate({opacity:1.0};
    },8000);
 },15000);
-</script>
+
+</script> -->
 
 <!-- list feature area end -->
 <!-- list feature area start -->
@@ -518,18 +541,7 @@ setInterval(function() {
     </div>
 </div>
 
-<!-- <script type='text/javascript'>
-    document.getElementById('video1').addEventListener('ended',myHandler,false);
-    function myHandler(e) {
-        // What you want to do after the event
-        $("#video1").on("ended", function() {
-          //TO DO: Your code goes here...
-          // alert("Video Finished");
-          $('#video1').modal('hide');
-        });
 
-    }
-</script> -->
 <!-- intro video area end -->
 
 <!-- our product area start -->
@@ -548,7 +560,7 @@ setInterval(function() {
                 <div class="product-carousel">
                     <div class="single-product-item"><!-- single product item -->
                         <div class="thumb">
-                            <img src="assets/img/product/01.jpg" alt="product image">
+                            <img src="assets/img/product/01.png" alt="product image">
                         </div>
                         <div class="content">
                             <h4 class="title"><a href="game1.html">Game 1</a></h4>
@@ -558,7 +570,7 @@ setInterval(function() {
                     </div><!-- //. single product item -->
                     <div class="single-product-item"><!-- single product item -->
                         <div class="thumb">
-                            <img src="assets/img/product/02.jpg" alt="product image">
+                            <img src="assets/img/product/02.png" alt="product image">
                         </div>
                         <div class="content">
                             <h4 class="title"><a href="game2.html">Game 2</a></h4>

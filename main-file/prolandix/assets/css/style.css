@@ -73,6 +73,15 @@ width: auto;
 }
 /* Video back ground Styling */
 
+.mastheadgame1 {
+  height: 100vh;
+  min-height: 200px;
+  background-image: url("../img/abc.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .game1bg1 {
   background: url("../img/abc.png") no-repeat ;
   height: 500px;

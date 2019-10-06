@@ -73,6 +73,15 @@ width: auto;
 }
 /* Video back ground Styling */
 
+.game1bg1 {
+  background: url("../img/abc.png") no-repeat ;
+  height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #myDiv {
     -webkit-animation-name: periodicfading;
     -webkit-animation-duration: 100s;

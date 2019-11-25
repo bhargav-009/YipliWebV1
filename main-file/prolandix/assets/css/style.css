@@ -3443,10 +3443,19 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: relative;
   z-index: 0; }
   .amazing-feature-area.style-03 {
-    padding-top: 120px;
-    padding-bottom: 100px; }
+    padding-top: 170px;
+    padding-bottom: 200px;
+    text-align: center;
+
+
+  }
+  .amazing-feature-area.style-03 h3 {
+  color: #ffffff !important;
+  }
   .amazing-feature-area.amazing-feature-bg {
-    background-image: url(../img/bg/amazing-bg-2.png); }
+    background-image: url(../img/bg/amazing-bg-2.png);
+    background-repeat: no-repeat;
+   }
   .amazing-feature-area.with-shape {
     margin-top: 270px;
     padding-top: 250px; }
@@ -3826,3 +3835,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     font-weight: 600;
     font-size: 14px;
     line-height: 50px; }
+
+    .separator1-2{
+      background-image: url(../img/bg/amazing-bg.png);
+      background-repeat: no-repeat;
+      padding-top: 50px;
+      padding-bottom: 100px;
+
+    }
+
+    .separator1-2 h2{
+      color: #ffffff;
+      text-align: center;
+      font-size: 40px;
+    }
